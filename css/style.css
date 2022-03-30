@@ -1,0 +1,62 @@
+ *{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;    
+   }
+   body{
+       display: flex;       
+       font-family: "Myriad Pro", Arial, sans-serif;      
+       color: hotpink;
+   }
+   .contenedor{
+       width: 480px;
+       margin: 20px auto;       
+       padding: 20px;
+       text-align: center;
+   }
+   form{
+      background:#000000;
+      border:#000 1px solid;
+      border-radius:7px;
+      width: 450px;
+   }
+   .t{
+      background-color: hotpink;    
+      border: solid 1px #ccc;
+      padding: 10px;
+      width: 180px;
+      color: black;
+      text-align: center;
+      font-size: 25px;
+   }
+   input [type="text"]{
+       width: 100%;
+       margin-bottom: 20%;
+       background-color: white;
+       text-align: center;
+       font-family: "Myriad Pro", Arial, sans-serif;
+       font-size: 35px;
+   }
+   .btn{
+      background-color:hotpink ;
+      border: none;
+      color: black;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 30px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius:50px;
+   }
+    .button1 {
+      background-color: #FF69B4; 
+      color: white; 
+      border: 2px solid #FF69B4;
+    }
+    .button1:hover {
+      background-color: white;
+      color: hotpink;
+    }
